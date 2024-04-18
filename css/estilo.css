@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    background-color: rgb(143, 156, 138);
+    background-image: url(img/s.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    
+}
+
+nav a {
+    
+    color: #fffdfd;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 15px 20px;
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+
+}
+
+nav a:hover {
+    background-color: #241a1a;
+    color: #00bbff;
+    transform: scale(1.1); 
+
+}
+
+main {
+    padding: 30px;
+    color: #000000;
+}
+
+footer {
+    color: #fffdfd;
+    background-color: #000000;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    clear: both;
+}
+
+.caja1 {
+    margin-top: -13px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+padding: 2px 2px;
+border: 2px solid rgb(214, 189, 189);
+background-color: #5ccb5f;
+background-image: url(https://fisiquimicamente.com/blog/2023/03/31/nieve/featured.jpg);
+}
+
+
+.caja2 {
+    position: static;
+    width: 1000px;
+    height: 720px;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #5ccb5f;
+    background-image: url(https://fisiquimicamente.com/blog/2023/03/31/nieve/featured.jpg);
+}
+
+.caja3 {
+padding: 0px 90px;
+border: 2px solid rgb(0, 0, 0);
+background-color: #5ccb5f;
+background-image: url(https://fisiquimicamente.com/blog/2023/03/31/nieve/featured.jpg);
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; left: 1005px;
+    position: relative; top: -786px;
+  }
+  
+.caja4 {
+    padding: 0px 90px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #5ccb5f;
+    background-image: url(https://fisiquimicamente.com/blog/2023/03/31/nieve/featured.jpg);
+}
+
+table{
+    border: 2px solid black;
+}
+
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; 
+
+}
+
+.gallery2:hover{
+    transform: translateY(-5px); /* Cambia la posición en el eje Y al hacer hover */
+    transform: scale(1.1); 
+
+}
+
+.image {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.image img {
+    width: 50%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.img-container {
+    position: relative;
+}
+.img-container img {
+    position: absolute;
+}
+
+a {
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  a img {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+  }
+
+  .caja6 {
+    position: static;
+    width: 1000px;
+    height: 720px;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #5ccb5f;
+    background-image: url(https://fisiquimicamente.com/blog/2023/03/31/nieve/featured.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .caja6 h2 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .caja6 form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  
+  .caja6 label {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .caja6 input[type="text"],
+  .caja6 input[type="email"],
+  .caja6 input[type="date"] {
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .caja6 input[type="submit"] {
+    background-color: #fff;
+    color: #5ccb5f;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .caja6 input[type="submit"]:hover {
+    background-color: #5ccb5f;
+    color: #fff;
+  }
